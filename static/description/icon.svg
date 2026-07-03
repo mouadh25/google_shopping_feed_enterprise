@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <!-- Enterprise Edition - Purple/Indigo -->
+  <rect width="256" height="256" fill="#4c1d95" rx="32"/>
+  <g transform="translate(64, 64)">
+    <!-- Feed icon: three full bars (enterprise = complete) -->
+    <line x1="0" y1="10" x2="64" y2="10" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/>
+    <line x1="0" y1="32" x2="64" y2="32" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/>
+    <line x1="0" y1="54" x2="64" y2="54" stroke="#c4b5fd" stroke-width="4" stroke-linecap="round"/>
+    <!-- Lock accent for security -->
+    <rect x="40" y="36" width="16" height="18" rx="2" fill="none" stroke="#a78bfa" stroke-width="2"/>
+    <path d="M 44 36 V 30 A 4 4 0 0 1 52 30 V 36" fill="none" stroke="#a78bfa" stroke-width="2"/>
+    <circle cx="48" cy="45" r="1.5" fill="#a78bfa"/>
+  </g>
+</svg>

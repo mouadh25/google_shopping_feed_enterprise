@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400">
+  <!-- Enterprise Edition Banner - Purple gradient -->
+  <defs>
+    <linearGradient id="entBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4c1d95;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2d1155;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#entBg)"/>
+  
+  <!-- Full feed icon with lock -->
+  <g transform="translate(50, 80)">
+    <line x1="0" y1="20" x2="120" y2="20" stroke="#c4b5fd" stroke-width="8" stroke-linecap="round"/>
+    <line x1="0" y1="80" x2="120" y2="80" stroke="#c4b5fd" stroke-width="8" stroke-linecap="round"/>
+    <line x1="0" y1="140" x2="120" y2="140" stroke="#c4b5fd" stroke-width="8" stroke-linecap="round"/>
+    <!-- Lock -->
+    <rect x="80" y="75" width="28" height="30" rx="3" fill="none" stroke="#a78bfa" stroke-width="3"/>
+    <path d="M 88 75 V 60 A 8 8 0 0 1 100 60 V 75" fill="none" stroke="#a78bfa" stroke-width="3"/>
+    <circle cx="94" cy="90" r="2" fill="#a78bfa"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="250" y="150" font-size="72" font-weight="bold" fill="#ffffff" font-family="Arial, sans-serif">Google Shopping Feed</text>
+  <text x="250" y="220" font-size="42" fill="#c4b5fd" font-family="Arial, sans-serif">Enterprise Edition</text>
+  <text x="250" y="280" font-size="28" fill="#ede9fe" font-family="Arial, sans-serif">Signed Licenses • Multi-Company • Premium Support</text>
+</svg>
