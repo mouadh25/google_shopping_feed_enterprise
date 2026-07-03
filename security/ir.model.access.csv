@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_google_feed_enterprise_company,res.company.google_feed_enterprise,base.model_res_company,,1,1,1,1
